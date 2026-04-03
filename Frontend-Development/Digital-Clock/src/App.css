@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+.clock-container h1 {
+  margin-left: 160px;
+  margin-top: 100px;
+  font-size: 80px;
+  color: rgb(52, 52, 52);
+}
+
+#clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+  background-color: rgb(193, 216, 236);
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10rem;
+  color: rgb(232, 104, 0);
+}
+
+.button {
+  padding: 15px 15px;
+  background-color: rgb(52, 52, 52);
+  border-radius: 4px;
+  border: 1px solid grey; /* corrected */
+  color: white;
+  font-size: 20px;
+  margin-left: 730px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers vertically */
+    gap: 20px;
+    padding: 40px 20px;
+    min-height: 100vh; /* Full height for vertical centering */
+    box-sizing: border-box;
+  }
+
+  .clock-container h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+  }
+
+  #clock {
+    font-size: 4rem;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  .button {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+
