@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Arun Kumar",
+    "role": "UX/UI Designer",
+    "email": "arun.kumar@gmail.com",
+    "location": "Chennai, India",
+    "skills": ["Figma", "Adobe XD", "Wireframing"],
+    "bio": "Designs clean and user-friendly interfaces.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 2,
+    "name": "EK",
+    "role": "Member Technical Staff",
+    "email": "contactek@gmail.com",
+    "location": "Chennai, India",
+    "skills": ["React", "JavaScript", "CSS"],
+    "bio": "Builds responsive UIs and interactive web apps.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 3,
+    "name": "Karthik Raj",
+    "role": "Backend Developer",
+    "email": "karthik.raj@gmail.com",
+    "location": "Madurai, India",
+    "skills": ["Node.js", "Express", "MongoDB"],
+    "bio": "Creates fast and secure backend systems.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 4,
+    "name": "Meena Ramesh",
+    "role": "Data Analyst",
+    "email": "meena.ramesh@gmail.com",
+    "location": "Salem, India",
+    "skills": ["Python", "SQL", "Tableau"],
+    "bio": "Analyzes data to generate valuable insights.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 5,
+    "name": "Sanjay Balan",
+    "role": "Full Stack Developer",
+    "email": "sanjay.balan@gmail.com",
+    "location": "Trichy, India",
+    "skills": ["React", "Node.js", "PostgreSQL"],
+    "bio": "Works on complete web app development lifecycle.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 6,
+    "name": "Priya Natarajan",
+    "role": "Product Manager",
+    "email": "priya.natarajan@gmail.com",
+    "location": "Erode, India",
+    "skills": ["Agile", "Scrum", "Roadmapping"],
+    "bio": "Leads product vision and cross-functional teams.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 7,
+    "name": "Vigneshwaran M",
+    "role": "DevOps Engineer",
+    "email": "vignesh.m@gmail.com",
+    "location": "Tirunelveli, India",
+    "skills": ["AWS", "Docker", "CI/CD"],
+    "bio": "Automates workflows and manages cloud setups.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 8,
+    "name": "Anitha Selvam",
+    "role": "Content Strategist",
+    "email": "anitha.selvam@gmail.com",
+    "location": "Chennai, India",
+    "skills": ["SEO", "Copywriting", "Content Planning"],
+    "bio": "Builds digital content plans for marketing growth.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 9,
+    "name": "Suresh Kumar",
+    "role": "Mobile App Developer",
+    "email": "suresh.kumar@gmail.com",
+    "location": "Madurai, India",
+    "skills": ["Flutter", "Dart", "Firebase"],
+    "bio": "Develops smooth mobile applications for Android and iOS.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 10,
+    "name": "Lavanya Ravi",
+    "role": "QA Engineer",
+    "email": "lavanya.ravi@gmail.com",
+    "location": "Salem, India",
+    "skills": ["Manual Testing", "Selenium", "Postman"],
+    "bio": "Ensures product quality through testing and automation.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 11,
+    "name": "Ragul Mani",
+    "role": "Cloud Engineer",
+    "email": "ragul.mani@gmail.com",
+    "location": "Coimbatore, India",
+    "skills": ["Azure", "Terraform", "Linux"],
+    "bio": "Maintains secure and scalable cloud environments.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 12,
+    "name": "Keerthana Devi",
+    "role": "Business Analyst",
+    "email": "keerthana.devi@gmail.com",
+    "location": "Trichy, India",
+    "skills": ["Excel", "Power BI", "Documentation"],
+    "bio": "Bridges the gap between clients and developers.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 13,
+    "name": "Aravind Raj",
+    "role": "Cybersecurity Engineer",
+    "email": "aravind.raj@gmail.com",
+    "location": "Chennai, India",
+    "skills": ["Network Security", "Firewalls", "Penetration Testing"],
+    "bio": "Protects digital assets from cyber threats.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 14,
+    "name": "Nisha Kumar",
+    "role": "Graphic Designer",
+    "email": "nisha.kumar@gmail.com",
+    "location": "Madurai, India",
+    "skills": ["Illustrator", "Photoshop", "Canva"],
+    "bio": "Creates brand visuals and digital graphics.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 15,
+    "name": "Vikram Kannan",
+    "role": "AI Engineer",
+    "email": "vikram.kannan@gmail.com",
+    "location": "Chennai, India",
+    "skills": ["Python", "TensorFlow", "Machine Learning"],
+    "bio": "Builds AI models for intelligent applications.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 16,
+    "name": "Harini Balaji",
+    "role": "HR Manager",
+    "email": "harini.balaji@gmail.com",
+    "location": "Coimbatore, India",
+    "skills": ["Recruitment", "Payroll", "Employee Engagement"],
+    "bio": "Manages hiring and team culture development.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 17,
+    "name": "Gokul Ram",
+    "role": "Project Coordinator",
+    "email": "gokul.ram@gmail.com",
+    "location": "Erode, India",
+    "skills": ["Communication", "Scheduling", "Resource Planning"],
+    "bio": "Coordinates team efforts to meet project timelines.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 18,
+    "name": "Revathi Anand",
+    "role": "Marketing Specialist",
+    "email": "revathi.anand@gmail.com",
+    "location": "Trichy, India",
+    "skills": ["Digital Marketing", "Analytics", "Brand Strategy"],
+    "bio": "Drives brand growth through digital campaigns.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 19,
+    "name": "Saravanan R",
+    "role": "System Administrator",
+    "email": "saravanan.r@gmail.com",
+    "location": "Chennai, India",
+    "skills": ["Linux", "Networking", "Security"],
+    "bio": "Maintains IT systems and network stability.",
+    "image": "/Profile-image.png"
+  },
+  {
+    "id": 20,
+    "name": "Sneha Rajesh",
+    "role": "Data Scientist",
+    "email": "sneha.rajesh@gmail.com",
+    "location": "Coimbatore, India",
+    "skills": ["Python", "Pandas", "Machine Learning"],
+    "bio": "Transforms raw data into actionable insights.",
+    "image": "/Profile-image.png"
+  }
+]
