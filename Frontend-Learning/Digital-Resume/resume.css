@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: #000;
+}
+
+.divider {
+  display: none;
+}
+
+.resume-container {
+  width: 8.5in;
+  min-height: 11in;
+  background-color: white;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.resume-container * {
+  color: #000;
+}
+
+.resume-container + .resume-container {
+  margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.header-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.name {
+  margin-top: -30px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.contact-info p {
+  font-size: 16px;
+}
+
+.contact-info strong {
+  font-weight: 600;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-photo {
+  margin-top: -25px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.section {
+  margin-bottom: 18px;
+  page-break-inside: avoid;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  letter-spacing: 0.5px;
+}
+
+.section p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.resume-table th {
+  padding: 6px 8px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid grey;
+}
+
+.resume-table td {
+  padding: 6px 8px;
+  border: 1px solid grey;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.skill-category {
+  flex: 1;
+}
+
+.skill-category h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-category li {
+  font-size: 16px;
+  margin-bottom: 4px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.skill-category li:before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  font-size: 8px;
+}
+
+.resume-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.resume-list li {
+  font-size: 16px;
+  margin-bottom: 6px;
+  padding-left: 15px;
+  position: relative;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.resume-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.project-item {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  page-break-inside: avoid;
+}
+
+.project-item h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.project-item p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.internship-item {
+  margin-bottom: 12px;
+  page-break-inside: avoid;
+}
+
+.internship-item h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.internship-item p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media print {
+  body {
+    background-color: white;
+    padding: 0;
+  }
+
+  .resume-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 40px;
+    box-shadow: none;
+    page-break-after: always;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .resume-container:last-child {
+    page-break-after: auto;
+  }
+} 
+
+@media screen and (max-width: 900px) {
+  .resume-container {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-right {
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+
+  .skills-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .profile-photo {
+    width: 80px;
+    height: 80px;
+  }
+ }
